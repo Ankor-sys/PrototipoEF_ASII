@@ -30,16 +30,20 @@
         {
             this.menuStrip1 = new System.Windows.Forms.MenuStrip();
             this.abrirToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.cerrarSesionToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.catalogosToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.mantenimientoCuentasToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.procesosToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.polizasContablesToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.informesToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.reportePolizaContableToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.herramientasToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.ayudaToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.mantenimientoCuentasToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.polizasContablesToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.reportePolizaContableToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.ayudaPolizaContableToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.cerrarSesionToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.txtUsuario = new System.Windows.Forms.TextBox();
+            this.reporteadorToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.consultasInteligentesToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.seguridadToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -66,6 +70,13 @@
             this.abrirToolStripMenuItem.Size = new System.Drawing.Size(45, 20);
             this.abrirToolStripMenuItem.Text = "Abrir";
             // 
+            // cerrarSesionToolStripMenuItem
+            // 
+            this.cerrarSesionToolStripMenuItem.Name = "cerrarSesionToolStripMenuItem";
+            this.cerrarSesionToolStripMenuItem.Size = new System.Drawing.Size(143, 22);
+            this.cerrarSesionToolStripMenuItem.Text = "Cerrar Sesion";
+            this.cerrarSesionToolStripMenuItem.Click += new System.EventHandler(this.cerrarSesionToolStripMenuItem_Click);
+            // 
             // catalogosToolStripMenuItem
             // 
             this.catalogosToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
@@ -73,6 +84,13 @@
             this.catalogosToolStripMenuItem.Name = "catalogosToolStripMenuItem";
             this.catalogosToolStripMenuItem.Size = new System.Drawing.Size(72, 20);
             this.catalogosToolStripMenuItem.Text = "Catalogos";
+            // 
+            // mantenimientoCuentasToolStripMenuItem
+            // 
+            this.mantenimientoCuentasToolStripMenuItem.Name = "mantenimientoCuentasToolStripMenuItem";
+            this.mantenimientoCuentasToolStripMenuItem.Size = new System.Drawing.Size(202, 22);
+            this.mantenimientoCuentasToolStripMenuItem.Text = "Mantenimiento Cuentas";
+            this.mantenimientoCuentasToolStripMenuItem.Click += new System.EventHandler(this.mantenimientoCuentasToolStripMenuItem_Click);
             // 
             // procesosToolStripMenuItem
             // 
@@ -82,6 +100,13 @@
             this.procesosToolStripMenuItem.Size = new System.Drawing.Size(66, 20);
             this.procesosToolStripMenuItem.Text = "Procesos";
             // 
+            // polizasContablesToolStripMenuItem
+            // 
+            this.polizasContablesToolStripMenuItem.Name = "polizasContablesToolStripMenuItem";
+            this.polizasContablesToolStripMenuItem.Size = new System.Drawing.Size(166, 22);
+            this.polizasContablesToolStripMenuItem.Text = "Polizas Contables";
+            this.polizasContablesToolStripMenuItem.Click += new System.EventHandler(this.polizasContablesToolStripMenuItem_Click);
+            // 
             // informesToolStripMenuItem
             // 
             this.informesToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
@@ -90,8 +115,18 @@
             this.informesToolStripMenuItem.Size = new System.Drawing.Size(66, 20);
             this.informesToolStripMenuItem.Text = "Informes";
             // 
+            // reportePolizaContableToolStripMenuItem
+            // 
+            this.reportePolizaContableToolStripMenuItem.Name = "reportePolizaContableToolStripMenuItem";
+            this.reportePolizaContableToolStripMenuItem.Size = new System.Drawing.Size(200, 22);
+            this.reportePolizaContableToolStripMenuItem.Text = "Reporte Poliza Contable";
+            // 
             // herramientasToolStripMenuItem
             // 
+            this.herramientasToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.reporteadorToolStripMenuItem,
+            this.consultasInteligentesToolStripMenuItem,
+            this.seguridadToolStripMenuItem});
             this.herramientasToolStripMenuItem.Name = "herramientasToolStripMenuItem";
             this.herramientasToolStripMenuItem.Size = new System.Drawing.Size(90, 20);
             this.herramientasToolStripMenuItem.Text = "Herramientas";
@@ -104,44 +139,47 @@
             this.ayudaToolStripMenuItem.Size = new System.Drawing.Size(53, 20);
             this.ayudaToolStripMenuItem.Text = "Ayuda";
             // 
-            // mantenimientoCuentasToolStripMenuItem
-            // 
-            this.mantenimientoCuentasToolStripMenuItem.Name = "mantenimientoCuentasToolStripMenuItem";
-            this.mantenimientoCuentasToolStripMenuItem.Size = new System.Drawing.Size(202, 22);
-            this.mantenimientoCuentasToolStripMenuItem.Text = "Mantenimiento Cuentas";
-            this.mantenimientoCuentasToolStripMenuItem.Click += new System.EventHandler(this.mantenimientoCuentasToolStripMenuItem_Click);
-            // 
-            // polizasContablesToolStripMenuItem
-            // 
-            this.polizasContablesToolStripMenuItem.Name = "polizasContablesToolStripMenuItem";
-            this.polizasContablesToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
-            this.polizasContablesToolStripMenuItem.Text = "Polizas Contables";
-            this.polizasContablesToolStripMenuItem.Click += new System.EventHandler(this.polizasContablesToolStripMenuItem_Click);
-            // 
-            // reportePolizaContableToolStripMenuItem
-            // 
-            this.reportePolizaContableToolStripMenuItem.Name = "reportePolizaContableToolStripMenuItem";
-            this.reportePolizaContableToolStripMenuItem.Size = new System.Drawing.Size(200, 22);
-            this.reportePolizaContableToolStripMenuItem.Text = "Reporte Poliza Contable";
-            // 
             // ayudaPolizaContableToolStripMenuItem
             // 
             this.ayudaPolizaContableToolStripMenuItem.Name = "ayudaPolizaContableToolStripMenuItem";
             this.ayudaPolizaContableToolStripMenuItem.Size = new System.Drawing.Size(193, 22);
             this.ayudaPolizaContableToolStripMenuItem.Text = "Ayuda Poliza Contable";
             // 
-            // cerrarSesionToolStripMenuItem
+            // txtUsuario
             // 
-            this.cerrarSesionToolStripMenuItem.Name = "cerrarSesionToolStripMenuItem";
-            this.cerrarSesionToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
-            this.cerrarSesionToolStripMenuItem.Text = "Cerrar Sesion";
-            this.cerrarSesionToolStripMenuItem.Click += new System.EventHandler(this.cerrarSesionToolStripMenuItem_Click);
+            this.txtUsuario.Enabled = false;
+            this.txtUsuario.Location = new System.Drawing.Point(664, 0);
+            this.txtUsuario.Name = "txtUsuario";
+            this.txtUsuario.Size = new System.Drawing.Size(100, 20);
+            this.txtUsuario.TabIndex = 3;
+            // 
+            // reporteadorToolStripMenuItem
+            // 
+            this.reporteadorToolStripMenuItem.Name = "reporteadorToolStripMenuItem";
+            this.reporteadorToolStripMenuItem.Size = new System.Drawing.Size(190, 22);
+            this.reporteadorToolStripMenuItem.Text = "Reporteador";
+            this.reporteadorToolStripMenuItem.Click += new System.EventHandler(this.reporteadorToolStripMenuItem_Click);
+            // 
+            // consultasInteligentesToolStripMenuItem
+            // 
+            this.consultasInteligentesToolStripMenuItem.Name = "consultasInteligentesToolStripMenuItem";
+            this.consultasInteligentesToolStripMenuItem.Size = new System.Drawing.Size(190, 22);
+            this.consultasInteligentesToolStripMenuItem.Text = "Consultas Inteligentes";
+            this.consultasInteligentesToolStripMenuItem.Click += new System.EventHandler(this.consultasInteligentesToolStripMenuItem_Click);
+            // 
+            // seguridadToolStripMenuItem
+            // 
+            this.seguridadToolStripMenuItem.Name = "seguridadToolStripMenuItem";
+            this.seguridadToolStripMenuItem.Size = new System.Drawing.Size(190, 22);
+            this.seguridadToolStripMenuItem.Text = "Seguridad";
+            this.seguridadToolStripMenuItem.Click += new System.EventHandler(this.seguridadToolStripMenuItem_Click);
             // 
             // MDIFinal
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1063, 532);
+            this.Controls.Add(this.txtUsuario);
             this.Controls.Add(this.menuStrip1);
             this.IsMdiContainer = true;
             this.MainMenuStrip = this.menuStrip1;
@@ -149,6 +187,7 @@
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterParent;
             this.Text = "MDIFinal";
             this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
+            this.Load += new System.EventHandler(this.MDIFinal_Load);
             this.menuStrip1.ResumeLayout(false);
             this.menuStrip1.PerformLayout();
             this.ResumeLayout(false);
@@ -170,5 +209,9 @@
         private System.Windows.Forms.ToolStripMenuItem ayudaToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem ayudaPolizaContableToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem cerrarSesionToolStripMenuItem;
+        private System.Windows.Forms.TextBox txtUsuario;
+        private System.Windows.Forms.ToolStripMenuItem reporteadorToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem consultasInteligentesToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem seguridadToolStripMenuItem;
     }
 }
