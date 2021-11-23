@@ -1,0 +1,12 @@
+D:\UMG\Año4\Semestre 2\Analisis De Sistemas 2\Final\Serie3\PolizasContables\CapaVista\bin\Debug\CapaVista.dll
+D:\UMG\Año4\Semestre 2\Analisis De Sistemas 2\Final\Serie3\PolizasContables\CapaVista\bin\Debug\CapaVista.pdb
+D:\UMG\Año4\Semestre 2\Analisis De Sistemas 2\Final\Serie3\PolizasContables\CapaVista\obj\Debug\CapaVista.csprojAssemblyReference.cache
+D:\UMG\Año4\Semestre 2\Analisis De Sistemas 2\Final\Serie3\PolizasContables\CapaVista\obj\Debug\CapaVista.frmPolizaContable.resources
+D:\UMG\Año4\Semestre 2\Analisis De Sistemas 2\Final\Serie3\PolizasContables\CapaVista\obj\Debug\CapaVista.MDIFinal.resources
+D:\UMG\Año4\Semestre 2\Analisis De Sistemas 2\Final\Serie3\PolizasContables\CapaVista\obj\Debug\CapaVista.csproj.GenerateResource.cache
+D:\UMG\Año4\Semestre 2\Analisis De Sistemas 2\Final\Serie3\PolizasContables\CapaVista\obj\Debug\CapaVista.csproj.CoreCompileInputs.cache
+D:\UMG\Año4\Semestre 2\Analisis De Sistemas 2\Final\Serie3\PolizasContables\CapaVista\obj\Debug\CapaVista.dll
+D:\UMG\Año4\Semestre 2\Analisis De Sistemas 2\Final\Serie3\PolizasContables\CapaVista\obj\Debug\CapaVista.pdb
+D:\UMG\Año4\Semestre 2\Analisis De Sistemas 2\Final\Serie3\PolizasContables\CapaVista\bin\Debug\CapaControlador.dll
+D:\UMG\Año4\Semestre 2\Analisis De Sistemas 2\Final\Serie3\PolizasContables\CapaVista\bin\Debug\CapaControlador.pdb
+D:\UMG\Año4\Semestre 2\Analisis De Sistemas 2\Final\Serie3\PolizasContables\CapaVista\obj\Debug\CapaVista.csproj.CopyComplete
